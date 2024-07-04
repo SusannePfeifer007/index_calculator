@@ -40,7 +40,7 @@ Please edit test_indices.py in the tests directory and execute
 
     $ cd tests
     $ test_indices.py (edit)
-    $ pytest (run)
+    $ pytest [-k NEW_INDEX_NAME]
 
 
 
