@@ -34,7 +34,7 @@ At last you need to perform a test:
     $ pip install pytest
 
 
-Please edit test_indices.py and execute
+Please edit test_indices.py in the tests directory and execute
 
 .. code-block:: console
 
