@@ -21,8 +21,8 @@ Second:
 
 .. code-block:: console
 
-    $ cd index_calculator/_indices.py
-    $ _indices.py
+    $ cd index_calculator/
+    $ emacs _indices.py
 
 
 The easiest way is to copy an exsiting index which is similar to your new one and adjust it to your needs. The naming conventions can de found in xclim_ under indicators (not indices).
