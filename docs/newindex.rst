@@ -6,7 +6,7 @@ New index
 
 The index calculation is based on xclim_. Index calculator only calculated indices, which are available in xclim. If you need an index, which is not included in xclim, please integrate it in xclim not here.
 
-First, you need a new index you need to edit two files:
+First, if you need a new index you need to edit two files:
 
 .. code-block:: console
 
@@ -14,6 +14,8 @@ First, you need a new index you need to edit two files:
     $ input_vars.json
     $ metadata.json
 
+In input_vars.json, add the name of the new index and the input parameter it needs.
+In metadata.json, add a block similar to the existing, providing all metadata for your new index (copy metadata from xclim)
 
 Second:
 
